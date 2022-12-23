@@ -183,7 +183,7 @@ input[type="checkbox"]{
   margin-top: -90px;
 	width: 100%;
 	/* min-height: 110vh; */
-  height:900px;
+  height:1000px;
   background-color: #ffe0cc;
 }
 .container1{
@@ -278,6 +278,11 @@ input[type="checkbox"]{
 @media screen and (max-width: 550px){
   .section{
     height: 1000px;
+  }
+}
+@media screen and (max-width:410px) {
+  .section{
+    height: 1100px;
   }
 }
 /* gallery*/ 
@@ -427,16 +432,19 @@ input[type="checkbox"]{
   background-color: #af8382;
   transition: 0.4s;
 }
+@media screen and (max-width:1270px){
+  .cont .card img{
+    width:180px;
+    height:180px;
+    position: relative;
+    left: 60px;
+  }
+}
 @media screen and (max-width:1120px){
   .cont .card img{
     width:180px;
     height:180px;
   }
-  .cont img{
-    text-align: center;
-    margin-left: -10px;
-  }
-  
 }
 @media screen and (max-width:950px){
   .cont{
@@ -456,7 +464,7 @@ input[type="checkbox"]{
   .cont img{
     width:80%;
     height:300px;
-    margin-left: 100px;
+    margin-left: 80px;
   }
 }
 @media screen and (max-width:540px){
